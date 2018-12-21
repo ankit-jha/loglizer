@@ -2,6 +2,8 @@
 # -*- coding: UTF-8 -*-
 __author__ = 'Shilin He'
 
+import sys
+sys.path.append('../')
 from models import PCA as PCA
 from utils import data_loader as data_loader
 
